@@ -6,8 +6,8 @@ import schema_pb2_grpc
 import grpc
 import requests
 
-HOST = 'https://functions.yandexcloud.net/d4e***qhd'
-TOKEN = 't1.9e***MBQ'
+HOST = 'https://functions.yandexcloud.net/d4e***1ik'
+TOKEN = 't1.9e***wCDg'
 
 request = schema_pb2.NewProgramRequest(
     program_name='test_program'

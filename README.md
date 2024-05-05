@@ -1,5 +1,7 @@
 # CF Python Client
 
+CF Endpoint: https://github.com/asman-go/cf-protobuf-api
+
 Start:
 
 ```
@@ -13,11 +15,11 @@ Generate proto scheme:
 on *nix:
 
 ```
-$ python -m grpc_tools.protoc -I ../cf-bbprogram/proto --python_out=. --grpc_python_out=. ../cf-bbprogram/proto/*.proto
+$ python -m grpc_tools.protoc -I ../cf-protobuf-api/proto --python_out=. --grpc_python_out=. ../cf-protobuf-api/proto/*.proto
 ```
 
 on Windows:
 
 ```
-$ python -m grpc_tools.protoc -I ..\cf-bbprogram\proto --python_out=. --grpc_python_out=. ..\cf-bbprogram\proto\*.proto
+$ python -m grpc_tools.protoc -I ..\cf-protobuf-api\proto --python_out=. --grpc_python_out=. ..\cf-protobuf-api\proto\*.proto
 ```
